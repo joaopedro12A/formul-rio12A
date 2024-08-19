@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="back.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <div id="background">
+        <video loop autoplay muted>
+            <source src="./Tecnologia.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="box">
+        <form action="">
+           
+                <legend><b><h1>Cadastro Lojas Eletrônicas</h1></b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Confirmar Email</label>
+                </div>
+
+                <p>Sexo:</p>
+                <input type="radio" id="Masculino" name="genero" value="Masculino" required>
+                <label for="Masculino">Masculino</label>
+                <br>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outros</label>
+                <br>
+
+                <p>Deseja receber notificações?</p>
+
+                
+                <input type="radio" id="sim" name="opcao" value="sim" required>
+                <label for="sim">Sim</label>
+                <br>
+                <input type="radio" id="nao" name="opcao" value="não" required>
+                <label for="nao">Não</label>
+                <br>
+                <input type="radio" id="algumas" name="opcao" value="algumas" required>
+                <label for="algumas">Algumas</label>
+                <br><br>
+
+                <div>
+                    <label for="aparelhos">Selecione um produto que combine que você!</label>
+                    <select id="aparelhos">
+                        <option value="smartphone">Smartphone</option>
+                        <option value="notebook">Notebook</option>
+                        <option value="tablet">Tablet</option>
+                        <option value="smartwatch">Smartwatch</option>
+                        <option value="tv">Televisão</option>
+                        <option value="headphone">Headphone</option>
+                        <option value="camera">Câmera Digital</option>
+                        <option value="console">Console de Videogame</option>
+                        <option value="monitor">Monitor</option>
+                        <option value="router">Roteador</option>
+                        <option value="keyboard">Teclado</option>
+                        <option value="mouse">Mouse</option>
+                        <option value="printer">Impressora</option>
+                        <option value="drone">Drone</option>
+                        <option value="speaker">Caixa de Som Bluetooth</option>
+                        
+
+                        <option disabled selected>Selecione!</option>
+                    </select>
+                </div>
+                <br>
+
+                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <br><br>
+
+                <div class="inputBox">
+                    <div>
+                        <label for="estados">Selecione o Estado!</label>
+                        <select id="estados"> <hr>
+                            <option value="smartphone">Rio Branco</option>
+                            <option value="notebook">Maceió</option>
+                            <option value="tablet">Macapá</option>
+                            <option value="smartwatch">Manaus</option>
+                            <option value="tv">Salvador</option>
+                            <option value="headphone">Fortaleza</option>
+                            <option value="camera">Brasília</option>
+                            <option value="console">Vitória</option>
+                            <option value="monitor">Goiânia</option>
+                            <option value="router">São Luís</option>
+                            <option value="keyboard">Cuiabá</option>
+                            <option value="mouse">Campo Grande</option>
+                            <option value="printer">Belo Horizonte</option>
+                            <option value="drone">Belém</option>
+                            <option value="speaker">João Pessoa</option>
+                            <option value="smartphone">Curitiba</option>
+                            <option value="notebook">Recife</option>
+                            <option value="tablet">Teresina</option>
+                            <option value="smartwatch">Rio de Janeiro</option>
+                            <option value="tv">Natal</option>
+                            <option value="headphone">Porto Alegre</option>
+                            <option value="camera">Porto Velho</option>
+                            <option value="console">Boa Vista</option>
+                            <option value="monitor">Florianópolis</option>
+                            <option value="router">São Paulo</option>
+                            <option value="keyboard">Aracaju</option>
+                            <option value="mouse">Palmas</option>
+                    
+                            
+                            <br><br>
+    
+                            <option disabled selected>Selecione!</option>
+                        </select>
+                    </div>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="password" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Criar Senha</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="password" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Confirme a Senha</label>
+                </div>
+                <br>
+
+                <p>Termos e Condições</p>
+                <div class="inputBox">
+                <input type="radio" id="Masculino" name="genero" value="Masculino" required>
+                <label for="Masculino">Eu aceito os Termos de Uso e a Política de Privacidade, e autorizo o tratamento dos meus dados pessoais conforme descrito.</label>
+                <option disabled selected></option>
+                </div>
+                <br>
+                <a href="Agradecimento.html" method="get"  id="submit" class="botao">Finalizar</a>
+
+                
+        
+
+
+                    
+
+
+            
+        </form>
+    </div>
+</body>
+</html>
